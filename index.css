@@ -1,0 +1,290 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+.navbar .container-fluid{
+    
+    background-color: rgb(139, 106, 112);
+}
+.navbar li a{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+.navbar li a:hover{
+    color: rgb(240, 184, 184);
+}
+.navbar .container-fluid img{
+    height: 100px;
+    width: 100px;
+    border-radius: 200px;
+    cursor: pointer;
+    object-fit: cover;
+}
+.navbar .container-fluid a:hover{
+    color: rgb(240, 184, 184);
+}
+.navbar .container-fluid a{
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 15px;
+}
+.navbar .container-fluid .navbar-toggler{
+    color: black;
+}
+.header{
+    background-color: whitesmoke;
+    height: 220px;
+    
+}
+  .style{
+    font-size: 30px;
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+    padding-top:10px;
+ }
+ #design{
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: 500;
+ }
+ #create{
+    margin-top: 15px;
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: 500;
+ }
+ #get{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 600;
+
+ }
+ #know{
+    margin-top: 15px;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+ }
+ #skill{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 600;
+ }
+ #button{
+    font-size: 25px;
+    font-weight: 550;
+    list-style: none;
+   margin-top: 20px;
+   text-align: center;
+   justify-content: center;
+ }
+
+
+ #button li{
+    display: inline-block;
+     padding: 5px;
+     margin-right: 20px;
+    
+     margin-top: 5px;
+}
+.html{
+    background-color: rgb(250, 253, 255);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.css{
+    background-color: rgb(250, 253, 255);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.bootstrap{
+    background-color: rgb(250, 253, 255);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;   
+
+}
+.javascript{
+    background-color: rgb(250, 253, 255);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.python{
+    background-color: rgb(250, 253, 255);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.sql{
+    background-color: rgb(250, 253, 255);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.project{
+    font-size: 30px;
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+    padding-top:25px;
+}
+#detail{
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+}
+#image{
+     text-align: center;
+     justify-content: center;
+}
+
+.project1{
+    font-size: 30px;
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+    padding-top:25px;
+}
+
+#detail1{
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+#image1{
+    text-align: center;
+    justify-content: center;
+}
+.project2{
+    font-size: 30px;
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+    padding-top:25px;
+}
+
+#detail2{
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+#image2{
+    text-align: center;
+    justify-content: center;
+}
+.project3{
+    font-size: 30px;
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+    padding-top:25px;
+}
+
+#detail3{
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.contact{
+    font-size: 30px;
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+    padding-top:25px;
+}
+#con{
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.row
+{
+    background-color: #eee8e8;
+    border-radius: 10px;
+    
+}
+label
+{
+
+    font-size: 30px;
+    font-weight: 500;
+}
+ .hr{
+    border: 4px solid rgb(139, 101, 108) ;
+
+    
+    margin-left: 25%;
+    width: 50%;
+    
+ }
+.row input:focus{
+    background-color: rgb(228, 207, 199);
+}
+.row button{
+    font-size: 30px;
+    font-weight: 600;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+.row button:focus{
+    background-color: rgb(238, 189, 169);
+}
+.row button:hover{
+    
+    background-color: rgb(243, 168, 168);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.footer{
+    background-color: black;
+}
+#am{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: whitesmoke;
+    padding-top: 20px;
+}
+#fro{
+    font-size:   20px;
+    font-weight: 500;
+    color: whitesmoke;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+#social{
+    font-size: 30px;
+    font-weight: 600;
+    color: whitesmoke;
+    padding-top: 20px;
+}
+#icons{
+    margin-top: 20px;
+    font-weight: 500;
+    
+}
+.de{
+    
+    border: 2px solid white;
+}
+#copyright{
+    
+
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    
+
+}
